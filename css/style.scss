@@ -1,14 +1,19 @@
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 .header-container{
     display: flex;
-    
-.menu-items{
-    display: flex;
-    justify-content: flex-end;
-}
+    justify-content: space-evenly;
 }
 
+.menu-items{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.menu-items li{
+    list-style-type: none;
+}
