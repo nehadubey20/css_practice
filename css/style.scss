@@ -1,19 +1,29 @@
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 2px;
+    padding: 2px;
 }
 .header-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 .menu-items{
     display: flex;
     list-style-type: none;
-    justify-content: space-evenly;
+    justify-content: end;
+    margin-left: auto;
+   
 }
 
 .menu-items li{
     list-style-type: none;
+}
+.youtube-icon{
+    width: 120px;
+    height: 40px;
+}
+.images{
+    width: 40px;
+    height: 40px;
 }

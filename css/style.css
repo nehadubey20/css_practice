@@ -1,15 +1,15 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 2px;
+  padding: 2px;
 }
 
 .header-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .menu-items {
@@ -17,12 +17,23 @@
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-left: auto;
 }
 
 .menu-items li {
   list-style-type: none;
+}
+
+.youtube-icon {
+  width: 120px;
+  height: 40px;
+}
+
+.images {
+  width: 40px;
+  height: 40px;
 }
 /*# sourceMappingURL=style.css.map */
