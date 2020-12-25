@@ -70,3 +70,17 @@
   .horline{
     width: 50%;
   }
+
+  .side-bar{
+    width: 20%;
+    li{
+      list-style-type: none;
+    }
+  }
+
+  .vertical{
+    border-right: 1px solid black;
+    height: 500px;
+    justify-content: space-evenly;
+    left: 2em;
+}

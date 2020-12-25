@@ -83,4 +83,21 @@
 .horline {
   width: 50%;
 }
+
+.side-bar {
+  width: 20%;
+}
+
+.side-bar li {
+  list-style-type: none;
+}
+
+.vertical {
+  border-right: 1px solid black;
+  height: 500px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  left: 2em;
+}
 /*# sourceMappingURL=style.css.map */
