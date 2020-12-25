@@ -10,11 +10,11 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: blueviolet;
-  height: 60px;
+  height: 70px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 2em 0 2em;
 }
 
 .menu-items {
@@ -26,28 +26,25 @@
 
 .menu-items li {
   list-style-type: none;
-}
-
-@media only screen and (max-width: 370px) {
-  .menu-items {
-    display: none;
-  }
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .youtube-icon {
-  height: 36px;
+  height: 26px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 
 .images {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .SearchBar {
-  height: 36px;
-  width: 350px;
+  height: 26px;
+  width: 300px;
 }
 
 .search {
@@ -57,28 +54,15 @@
   display: flex;
 }
 
-@media only screen and (max-width: 370px) {
-  .search input {
-    display: none;
-  }
-}
-
 .searchText {
   width: 100%;
-  border: 3px solid black;
+  border: 3px 1px black;
   padding: 5px;
-  height: 20px;
   border-radius: 4px 0 0 4px;
 }
 
 .searchText:focus {
   color: black;
-}
-
-@media only screen and (max-width: 370px) {
-  .searchText {
-    display: none;
-  }
 }
 
 .searchButton {
@@ -94,5 +78,9 @@
 .SearchBar {
   width: 40%;
   left: 30%;
+}
+
+.horline {
+  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */

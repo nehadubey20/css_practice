@@ -1,15 +1,14 @@
-$information-phone: "only screen and (max-width : 370px)";
-
 * {
     margin: 0px;
     padding: 0px;
 }
+
 .header-container{
     display: flex;
     justify-content: space-between;
-    background-color: blueviolet;
-    height: 60px;
+    height: 70px;
     align-items: center;
+    margin: 0 2em 0 2em;
 }
 
 .menu-items{
@@ -17,49 +16,38 @@ $information-phone: "only screen and (max-width : 370px)";
     list-style-type: none;
     li{
     list-style-type: none;
-    }
-    @media #{$information-phone} {
-      display: none;
+    justify-content: space-evenly;
+    
     }
 }
 
 .youtube-icon{
-  height: 36px;
+  height: 26px;
   object-fit: contain;
 }
 
 .images{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .SearchBar{
-    height: 36px;
-    width: 350px;
-       
+    height: 26px;
+    width: 300px;
 }
 .search {
     width: 100%;
-    // position: relative;
     display: flex;
-    @media #{$information-phone} {
-    input{
-        display: none;
-      }
-    }
+
   }
   
-  .searchText {
+.searchText {
     width: 100%;
-    border: 3px solid black;
+    border: 3px 1px black;
     padding: 5px;
-    height: 20px;
     border-radius: 4px 0 0 4px;
     &:focus{
       color: black;
-    }
-    @media #{$information-phone} {
-      display: none;
     }
   }
 
@@ -76,9 +64,9 @@ $information-phone: "only screen and (max-width : 370px)";
   
   .SearchBar{
     width: 40%;
-    // position:relative;
     left: 30%;
-    // transform: translate(-50%,10%);
   }
 
-  
+  .horline{
+    width: 50%;
+  }
