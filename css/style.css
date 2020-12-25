@@ -1,15 +1,20 @@
 * {
-  margin: 2px;
-  padding: 2px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .header-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: blueviolet;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .menu-items {
@@ -17,19 +22,22 @@
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  margin-left: auto;
 }
 
 .menu-items li {
   list-style-type: none;
 }
 
+@media only screen and (max-width: 370px) {
+  .menu-items {
+    display: none;
+  }
+}
+
 .youtube-icon {
-  width: 140px;
-  height: 38s0px;
+  height: 36px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .images {
@@ -44,10 +52,15 @@
 
 .search {
   width: 100%;
-  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media only screen and (max-width: 370px) {
+  .search input {
+    display: none;
+  }
 }
 
 .searchText {
@@ -62,6 +75,12 @@
   color: black;
 }
 
+@media only screen and (max-width: 370px) {
+  .searchText {
+    display: none;
+  }
+}
+
 .searchButton {
   width: 40px;
   height: 36px;
@@ -74,9 +93,6 @@
 
 .SearchBar {
   width: 40%;
-  position: relative;
   left: 30%;
-  -webkit-transform: translate(-50%, 10%);
-          transform: translate(-50%, 10%);
 }
 /*# sourceMappingURL=style.css.map */
