@@ -6,7 +6,7 @@
 .header-container{
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 60px;
     align-items: center;
     margin: 0 2em 0 2em;
 }
@@ -49,8 +49,8 @@
 .searchText {
     width: 100%;
     border: 3px 1px black;
-    padding: 5px;
-    border-radius: 4px 0 0 4px;
+    padding: 7px;
+    border-radius: 0px 0 0 4px;
     &:focus{
       color: black;
     }
@@ -58,11 +58,11 @@
 
   
   .searchButton {
-    width: 40px;
-    height: 36px;
+    width: 44px;
+    height: 33px;
     text-align: center;
     color: black;
-    border-radius:0 4px 4px 0  ;
+    border-radius:0 1px 2px -1  ;
     cursor: pointer;
     font-size: 20px;
   }
