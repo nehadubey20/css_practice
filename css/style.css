@@ -107,6 +107,31 @@
   margin: 1em;
 }
 
+.side-bar li:hover {
+  background: #D0D0D0;
+}
+
+.side-bar H4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1em;
+}
+
+.side-bar a {
+  text-decoration: none;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .vertical {
   overflow-y: scroll;
   height: 100vh;
