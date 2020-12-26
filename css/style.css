@@ -141,16 +141,15 @@
   left: 2em;
 }
 
-.buttons {
-  display: inline;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-left: 3em;
-  border-radius: 50%;
+.Buttons {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  justify-items: center;
+  font-size: 16px;
+  margin: -2px 0;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
