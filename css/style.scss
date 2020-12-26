@@ -111,4 +111,10 @@
     left: 2em;
 }
 
-
+.buttons{
+  display: inline;
+  display: flex;
+  flex-direction:row ;
+  margin-left:3em ;
+  border-radius: 50%;
+}
