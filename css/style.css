@@ -177,4 +177,13 @@
   top: 1px;
   background-color: #BEBEBE;
 }
+
+.second-layer {
+  position: absolute;
+  margin-left: 240px;
+}
+
+.second-layer .hor-line {
+  width: 69.2em;
+}
 /*# sourceMappingURL=style.css.map */

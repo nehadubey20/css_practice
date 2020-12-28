@@ -111,7 +111,6 @@
     left: 2em;
 }
 
-
 .Buttons{
     // width: 200%;
     height: 100%;
@@ -148,4 +147,14 @@
   position:relative;
   top:1px;
   background-color:#BEBEBE;
+}
+
+.second-layer{
+    position: absolute;
+    // justify-items: flex-start;
+    margin-left: 240px;
+    .hor-line{
+      width: 69.2em;
+    }
+    
 }
