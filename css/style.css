@@ -163,7 +163,7 @@
   color: black;
   font-family: Arial;
   font-size: 12px;
-  padding: 11px 12px;
+  padding: 4px 11px;
   text-decoration: none;
   text-shadow: 0px 0px 0px #e7e7e7;
 }
@@ -172,9 +172,9 @@
   background-color: #D0D0D0;
 }
 
-.Button-1:active {
+.active {
   position: relative;
   top: 1px;
-  background-color: #909090;
+  background-color: #BEBEBE;
 }
 /*# sourceMappingURL=style.css.map */
