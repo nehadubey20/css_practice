@@ -6,7 +6,6 @@
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: Arial, Arial, Helvetica, sans-serif;
 }
 
 .header-container {
@@ -99,7 +98,6 @@
 }
 
 .side-bar {
-  position: relative;
   width: 18%;
 }
 
@@ -185,11 +183,6 @@
   background-color: #BEBEBE;
 }
 
-.second-layer {
-  position: absolute;
-  margin-left: 240px;
-}
-
 .second-layer .hor-line {
   width: 69.2em;
 }
@@ -209,15 +202,19 @@
 }
 
 .video-container {
-  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 60px 0 0 250px;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .thumbnail {
