@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+*,*::after,*::before{
+  box-sizing: border-box;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+ }
 
 .header-container{
     display: flex;
@@ -158,4 +162,28 @@
     }
     
 }
+.video-sec:first-child{
+  border-top: none;
+}
 
+.video-sec{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+  gap:3rem 1rem;
+  margin:0 1.5rem;
+  border-top: 4px solid #ccc;
+}
+
+.video-container{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  //top : 10em;
+  padding: 60px 0 0 250px;
+  // padding: 40px;
+}
+
+.thumbnail{
+  position: relative;
+  display:flex;
+}
