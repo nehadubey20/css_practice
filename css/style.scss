@@ -77,6 +77,7 @@
   }
 
   .side-bar{
+    position: relative;
     width: 18%;
     li{
       list-style-type: none;
@@ -151,7 +152,6 @@
 
 .second-layer{
     position: absolute;
-    // justify-items: flex-start;
     margin-left: 240px;
     .hor-line{
       width: 69.2em;

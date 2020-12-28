@@ -93,6 +93,7 @@
 }
 
 .side-bar {
+  position: relative;
   width: 18%;
 }
 
