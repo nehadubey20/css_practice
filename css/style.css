@@ -217,6 +217,10 @@
   display: flex;
 }
 
+img.channel-icon {
+  border-radius: 50%;
+}
+
 .thumbnail {
   position: relative;
   display: -webkit-box;
