@@ -184,7 +184,7 @@
 }
 
 .second-layer .hor-line {
-  width: 69.2em;
+  width: 69.4em;
 }
 
 .video-sec:first-child {
@@ -199,6 +199,13 @@
   gap: 3rem 1rem;
   margin: 0 1.5rem;
   border-top: 4px solid #ccc;
+}
+
+.video-sec .hor-line {
+  margin-left: 0%;
+  width: 68em;
+  height: 6px;
+  background-color: grey;
 }
 
 .video-details {
