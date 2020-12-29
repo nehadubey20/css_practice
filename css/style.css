@@ -201,7 +201,18 @@
   border-top: 4px solid #ccc;
 }
 
+.video-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .video-container {
+  margin-top: 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -217,8 +228,22 @@
   display: flex;
 }
 
+.video-bottom-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 0.6rem;
+}
+
 img.channel-icon {
   border-radius: 50%;
+  margin-right: 0.75rem;
+  width: 36px;
+  height: 36px;
+  background-color: grey;
 }
 
 .thumbnail {

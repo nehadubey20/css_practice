@@ -175,8 +175,13 @@
   border-top: 4px solid #ccc;
 }
 
-.video-container{
+.video-details{
+  display:flex;
+  flex-direction: column;
+}
 
+.video-container{
+    margin-top: 0.5rem;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -188,9 +193,19 @@
   display: flex;
 }
 
+.video-bottom-sec{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0.6rem;
+}
+
+
 img.channel-icon {
   border-radius: 50%;
-}
+  margin-right: 0.75rem;
+  width: 36px;
+  height: 36px;
+  background-color: grey;}
 
 .thumbnail{
   position: relative;
