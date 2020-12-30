@@ -1,3 +1,12 @@
+// @keyframes grow{
+//   0%{
+//     transform: scale(1);
+//   }
+//   100%{
+//     transform: scale(1.5);
+//   }
+// }
+
 * {
     margin: 0px;
     padding: 0px;
@@ -16,6 +25,14 @@
     align-items: center;
     margin: 0 2em 0 2em;
 }
+
+@media (max-width:600px) {
+  .header-container{
+  display: flex;
+  
+}
+}
+
 
 .menu-items{
   display: -webkit-box;
@@ -236,5 +253,8 @@ img.channel-icon {
 .thumbnail{
   position: relative;
   display:flex;
+  // transform-origin: center center;
+
+  // animation: grow 15s infinite linear;
 }
 
