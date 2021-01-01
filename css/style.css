@@ -44,6 +44,12 @@
           justify-content: space-evenly;
 }
 
+.youtube-icon {
+  height: 26px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 @media (max-width: 500px) {
   .header-container {
     display: -webkit-box;
@@ -66,16 +72,15 @@
     display: flex;
   }
   .youtube-icon {
-    height: 20px;
-    -o-object-fit: contain;
-       object-fit: contain;
+    height: 18px;
+    display: inline;
+    margin: 5px;
+    margin-left: -37px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -ms-flex-line-pack: center;
   }
-}
-
-.youtube-icon {
-  height: 26px;
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 .images {
