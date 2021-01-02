@@ -283,6 +283,7 @@ img.channel-icon {
     display: -ms-flexbox;
     display: flex;
     margin: 0px auto;
+    margin-right: 30px;
   }
   .menu-items {
     display: none;
