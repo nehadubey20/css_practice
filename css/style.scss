@@ -310,7 +310,19 @@ img.channel-icon {
     display:none;
   }
 
+  .second-layer .hor-line{
+    margin: 0%;
+
+  }
+
+  .side-bar{
+    width: 5%;
+  }
+
   .Buttons{
     display: flex;
+  }
+  .video-container{
+    align-items: center;
   }
 }
