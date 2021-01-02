@@ -282,7 +282,7 @@ img.channel-icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 0px 8em -7px 2em;
+    margin: 0px auto;
   }
   .menu-items {
     display: none;
@@ -320,6 +320,38 @@ img.channel-icon {
         -ms-flex-align: start;
             align-items: flex-start;
     margin-left: -30px;
+  }
+  .Buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    margin: -7px;
+  }
+  .Button-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: -8px;
+        align-self: -8px;
+    padding: 0 21px 0px 16px;
+    -ms-flex-line-pack: space-evenly;
+        align-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .video-sec .hor-line {
+    margin-left: 0%;
+    width: 21em;
+    height: 6px;
+    background-color: grey;
   }
   .vertical {
     display: none;

@@ -238,7 +238,7 @@ img.channel-icon {
   
   .header-container{
     display: flex;
-    margin:0px 8em -7px 2em;
+    margin: 0px auto;
   }
 
   .menu-items{
@@ -263,6 +263,7 @@ img.channel-icon {
     margin-left: -35px;
     margin-top: 6px;
     flex-direction: row;
+    // margin: auto;
     // align-items: center;
   }
 
@@ -272,10 +273,39 @@ img.channel-icon {
   align-items: flex-start;
   margin-left: -30px;
 }
+.Buttons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin: -7px;
+  }
+
+  .Button-1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-self: -8px;
+    padding: 0 21px 0px 16px;
+    align-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
   // .images{
   //   display: none;
   // }
 
+  .video-sec .hor-line{
+    margin-left: 0%;
+    width: 21em;
+    height: 6px;
+    background-color: grey;
+  }
   .vertical{
     display:none;
   }
