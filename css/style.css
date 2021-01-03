@@ -332,7 +332,7 @@ img.channel-icon {
         flex-wrap: wrap;
     -ms-flex-line-pack: distribute;
         align-content: space-around;
-    margin: -7px;
+    margin: -6px;
   }
   .Button-1 {
     display: -webkit-box;
