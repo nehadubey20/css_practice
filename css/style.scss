@@ -249,7 +249,7 @@ img.channel-icon {
   .header-container {
     display: flex;
     margin: 0px auto;
-    margin-right: 30px;
+    margin-right: 80px;
   }
 
   .menu-items {
@@ -324,7 +324,7 @@ img.channel-icon {
 
   .second-layer .hor-line {
     margin: 0%;
-
+    width: 300px;
   }
 
   .side-bar {
@@ -335,11 +335,15 @@ img.channel-icon {
     display: flex;
   }
 
-  .horline{
-    
+  .hor-line{
+    display: flex;
+    width:300px;
   }
 
   .video-container {
+    -webkit-box-align: center;
+    display: block;
+    -ms-flex-align: center;
     align-items: center;
   }
 }

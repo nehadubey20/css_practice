@@ -285,7 +285,7 @@ img.channel-icon {
     display: -ms-flexbox;
     display: flex;
     margin: 0px auto;
-    margin-right: 30px;
+    margin-right: 80px;
   }
   .menu-items {
     display: none;
@@ -361,6 +361,7 @@ img.channel-icon {
   }
   .second-layer .hor-line {
     margin: 0%;
+    width: 300px;
   }
   .side-bar {
     width: 5%;
@@ -370,10 +371,17 @@ img.channel-icon {
     display: -ms-flexbox;
     display: flex;
   }
+  .hor-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+  }
   .video-container {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    display: block;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
