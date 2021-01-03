@@ -312,12 +312,19 @@ img.channel-icon {
   // }
 
   .video-sec .hor-line {
-    margin-left: 0%;
-    width: 21em;
-    height: 6px;
-    background-color: grey;
+    // margin-left: 0%;
+    // width: 21em;
+    // height: 6px;
+    // background-color: grey;
+    display: none;
   }
-
+.video-sec .hor-line{
+  margin: 1%;
+  width: 279px;
+}
+  .video-sec {
+    border-top: 0px solid #ccc;
+  }
   .vertical {
     display: none;
   }
