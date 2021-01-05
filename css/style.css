@@ -284,8 +284,8 @@ img.channel-icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 0px auto;
-    margin-right: 80px;
+    margin: auto;
+    margin-right: 48px;
   }
   .menu-items {
     display: none;
@@ -322,40 +322,16 @@ img.channel-icon {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    margin-left: -30px;
+    margin-left: 15px;
   }
-  .Buttons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-line-pack: distribute;
-        align-content: space-around;
-    margin: -6px;
+  .second-layer {
+    display: none;
   }
-  .Button-1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-item-align: -8px;
-        align-self: -8px;
-    padding: 0 21px 0px 16px;
-    -ms-flex-line-pack: space-evenly;
-        align-content: space-evenly;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+  .images {
+    height: auto;
   }
   .video-sec .hor-line {
     display: none;
-  }
-  .video-sec .hor-line {
-    margin: 1%;
-    width: 279px;
   }
   .video-sec {
     border-top: 0px solid #ccc;
@@ -364,8 +340,7 @@ img.channel-icon {
     display: none;
   }
   .second-layer .hor-line {
-    margin: 0%;
-    width: 300px;
+    display: none;
   }
   .side-bar {
     width: 5%;
@@ -379,7 +354,7 @@ img.channel-icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 300px;
+    width: 350px;
   }
   .video-container {
     -webkit-box-align: center;

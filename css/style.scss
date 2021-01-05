@@ -248,8 +248,8 @@ img.channel-icon {
 
   .header-container {
     display: flex;
-    margin: 0px auto;
-    margin-right: 80px;
+    margin: auto;
+    margin-right: 48px;
   }
 
   .menu-items {
@@ -280,48 +280,54 @@ img.channel-icon {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-left: -30px;
+    margin-left: 15px;
   }
 
-  .Buttons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    margin: -6px;
+  .second-layer{
+    display: none;
   }
+  // .Buttons {
+  //   display: none;
+  //   // display: -webkit-box;
+  //   // display: -ms-flexbox;
+  //   // display: flex;
+  //   // flex-wrap: wrap;
+  //   // align-content: space-around;
+  //   // margin: -6px;
+  // }
 
-  .Button-1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    align-self: -8px;
-    padding: 0 21px 0px 16px;
-    align-content: space-evenly;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
+  // .Button-1 {
+  //   display: none;
+  //   // display: -webkit-box;
+  //   // display: -ms-flexbox;
+  //   // display: flex;
+  //   // align-self: -8px;
+  //   // padding: 0 21px 0px 16px;
+  //   // align-content: space-evenly;
+  //   // -webkit-box-orient: horizontal;
+  //   // -webkit-box-direction: normal;
+  //   // -ms-flex-direction: row;
+  //   // flex-direction: row;
+  //   // -ms-flex-wrap: wrap;
+  //   // flex-wrap: wrap;
+  // }
 
-  // .images{
+  .images{
+    height: auto;
+    }
+
+  // .video-sec .hor-line {
+  //   // margin-left: 0%;
+  //   // width: 21em;
+  //   // height: 6px;
+  //   // background-color: grey;
   //   display: none;
   // }
 
-  .video-sec .hor-line {
-    // margin-left: 0%;
-    // width: 21em;
-    // height: 6px;
-    // background-color: grey;
-    display: none;
-  }
-
   .video-sec .hor-line{
-  margin: 1%;
-  width: 279px;
+  // margin: 1%;
+  // width: 279px;
+  display: none;
   }
 
   .video-sec {
@@ -333,8 +339,9 @@ img.channel-icon {
   }
 
   .second-layer .hor-line {
-    margin: 0%;
-    width: 300px;
+    // margin: 0%;
+    // width: 300px;
+    display:none;
   }
 
   .side-bar {
@@ -347,7 +354,7 @@ img.channel-icon {
 
   .hor-line{
     display: flex;
-    width:300px;
+    width:350px;
   }
 
   .video-container {
