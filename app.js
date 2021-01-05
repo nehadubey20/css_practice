@@ -1,4 +1,4 @@
 function toggle() {
-    var element = document.getElementById("toggle");
+    var element = document.getElementById("vertical");
     element.classList.toggle("vertical");
   }
