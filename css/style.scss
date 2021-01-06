@@ -334,19 +334,43 @@ img.channel-icon {
     border-top: 0px solid #ccc;
   }
   
-  .vertical {
-    display: none;
-  }
+  // .vertical {
+  //   display: none;
+  // }
 
-  .second-layer .hor-line {
+  // .vertical-1 {
+  //   overflow-y: scroll;
+  //   height: 100%;
+  //   -webkit-box-pack: space-evenly;
+  //   -ms-flex-pack: space-evenly;
+  //   justify-content: space-evenly;
+  //   left: 2em;
+  // }
+
+   .second-layer .hor-line {
     // margin: 0%;
     // width: 300px;
     display:none;
   }
 
-  .side-bar {
-    width: 5%;
+  .side-bar{
+    display: none;
   }
+
+  .side-bar-1 {
+     background-color: rgba(3, 3, 3, 0.274);
+      width: 50vw;
+      display: grid;
+      z-index: 1000;
+      position: absolute;
+  }
+
+  .active {
+    position: relative;
+    top: 1px;
+    background-color: dimgrey;
+    width: 39vw;
+}
 
   .Buttons {
     display: flex;

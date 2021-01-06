@@ -1,4 +1,4 @@
 function toggle() {
-    var element = document.getElementById("vertical");
-    element.classList.toggle("vertical");
-  }
+  console.log("chal gaya");
+  document.getElementsByClassName("side-bar")[0].classList.toggle("side-bar-1"); 
+}

@@ -336,14 +336,25 @@ img.channel-icon {
   .video-sec {
     border-top: 0px solid #ccc;
   }
-  .vertical {
-    display: none;
-  }
   .second-layer .hor-line {
     display: none;
   }
   .side-bar {
-    width: 5%;
+    display: none;
+  }
+  .side-bar-1 {
+    background-color: rgba(3, 3, 3, 0.274);
+    width: 50vw;
+    display: -ms-grid;
+    display: grid;
+    z-index: 1000;
+    position: absolute;
+  }
+  .active {
+    position: relative;
+    top: 1px;
+    background-color: dimgrey;
+    width: 39vw;
   }
   .Buttons {
     display: -webkit-box;
