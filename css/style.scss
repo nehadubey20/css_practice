@@ -347,7 +347,7 @@ img.channel-icon {
   //   left: 2em;
   // }
 
-   .second-layer .hor-line {
+  .second-layer .hor-line {
     // margin: 0%;
     // width: 300px;
     display:none;
@@ -358,11 +358,15 @@ img.channel-icon {
   }
 
   .side-bar-1 {
-     background-color: rgba(3, 3, 3, 0.274);
+      background-color: rgba(3, 3, 3, 0.274);
       width: 50vw;
       display: grid;
       z-index: 1000;
       position: absolute;
+
+      li{
+        width: 23vh;
+      }
   }
 
   .active {

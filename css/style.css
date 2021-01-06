@@ -350,6 +350,9 @@ img.channel-icon {
     z-index: 1000;
     position: absolute;
   }
+  .side-bar-1 li {
+    width: 23vh;
+  }
   .active {
     position: relative;
     top: 1px;
