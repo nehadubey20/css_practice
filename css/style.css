@@ -353,11 +353,20 @@ img.channel-icon {
   .side-bar-1 li {
     width: 23vh;
   }
+  .vertical {
+    overflow-y: scroll;
+    height: 100%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    left: 2em;
+    background-color: white;
+  }
   .active {
     position: relative;
     top: 1px;
     background-color: dimgrey;
-    width: 39vw;
+    width: 38vw;
   }
   .Buttons {
     display: -webkit-box;

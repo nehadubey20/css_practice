@@ -322,6 +322,17 @@ img.channel-icon {
       }
   }
 
+  .vertical {
+    overflow-y: scroll;
+    height: 100%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    left: 2em;
+    background-color:	rgb(255,255,255);
+}
+
+
   .active {
     position: relative;
     top: 1px;
