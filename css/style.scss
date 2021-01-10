@@ -291,7 +291,6 @@ img.channel-icon {
     display: none;
   }
 
-
   .images{
     height: auto;
     }
@@ -318,7 +317,7 @@ img.channel-icon {
       display: grid;
       z-index: 1000;
       position: absolute;
-
+      //nav-down: auto;
       li{
         width: 23vh;
       }
