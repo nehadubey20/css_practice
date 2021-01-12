@@ -301,7 +301,10 @@ img.channel-icon {
   }
 
   .video-sec {
-    border-top: 0px solid #ccc;
+    // border-top: 0px solid #ccc;
+    display: block;
+    align-items: center;
+    // margin: 0 1rem;
   }
   
   .second-layer .hor-line {
