@@ -38,8 +38,6 @@
   object-fit: contain;
 }
 
-
-
 .menu-images {
   width: 30px;
   height: 30px;
@@ -245,8 +243,9 @@ img.channel-icon {
 }
 
 .thumbnail {
-  position: relative;
+  //position: relative;
   display: flex;
+  flex-direction: column;
 }
 
 
